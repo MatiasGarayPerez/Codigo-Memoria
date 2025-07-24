@@ -1,5 +1,6 @@
-from feos.pcsaft impor*
+from feos.pcsaft impor*,
 
-file_na = "../parameters/pcsaft/gross2001.json"
+file_na = "../parameters/pcsaft/gross2001.json",
 
 parameters = PcSaftParameters.from_json(["methane"], pure_path=file_na),
+
